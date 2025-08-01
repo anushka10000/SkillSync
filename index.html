@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSync</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="SkillSync Logo" class="logo" />
+    <h1>Welcome to SkillSync</h1>
+    <p>Find people to swap skills with and grow together!</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Tell us what you want to teach & learn</h2>
+      <form id="skillForm">
+        <input type="text" id="teach" placeholder="I can teach..." required />
+        <input type="text" id="learn" placeholder="I want to learn..." required />
+        <button type="submit">Find a Match</button>
+      </form>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
